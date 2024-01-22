@@ -10,8 +10,6 @@ Before you begin, make sure you have the following software installed on your ma
 
 - [PHP](https://www.php.net/) (>= 7.4)
 - [Composer](https://getcomposer.org/)
-- [Node.js](https://nodejs.org/) (LTS version recommended)
-- [NPM](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) (for managing frontend assets)
 - [MySQL](https://www.mysql.com/) or [SQLite](https://www.sqlite.org/) (or any other database supported by Laravel)
 
 ### Clone the Repository
@@ -35,7 +33,7 @@ composer update
 php artisan migrate --seed
 ```
 
-### Start project accessable http:127.0.0.1:8000/api/v1/login
+### Start project accessable http://127.0.0.1:8000/api/v1/login
 ```
 php artisan serve
 ```

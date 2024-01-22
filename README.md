@@ -17,5 +17,7 @@ Before you begin, make sure you have the following software installed on your ma
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-laravel-project.git
-cd your-laravel-project
+git clone https://github.com/zaeem9233/ikonic-task-backend
+cd ikonic-task-backend
+php artisan migrate --seed
+php artisan serve

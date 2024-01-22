@@ -18,19 +18,24 @@ Before you begin, make sure you have the following software installed on your ma
 
 ```bash
 git clone https://github.com/zaeem9233/ikonic-task-backend
+bash```
 
 ### Change Directory
 ```bash
 cd ikonic-task-backend
+bash```
 
 ### Update Packages
 ```bash
 composer update
+bash```
 
 ### Migrate Database with seeders
 ```bash
 php artisan migrate --seed
+bash```
 
 ### Start project accessable http:127.0.0.1:8000/api/v1/login
 ```bash
 php artisan serve
+bash```
